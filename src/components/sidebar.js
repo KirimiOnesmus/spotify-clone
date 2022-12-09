@@ -8,7 +8,7 @@ import {RiInstallFill} from 'react-icons/ri'
 function sidebar() {
   return (
     <div className=''>
-      <div className="p-6 bg-black w-1/5 h-screen fixed">
+      <div className="relative p-6 bg-black w-1/5 h-screen">
       <div className='flex cursor-pointer'>
         <img 
         className='w-12 h-12'

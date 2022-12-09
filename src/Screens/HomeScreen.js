@@ -1,17 +1,22 @@
 import React from 'react'
-import HeaderBar from '../components/HeaderBar'
+
 import Player from '../components/Player'
 import Sidebar from '../components/sidebar'
+import Center from '../components/Center'
 
 function HomeScreen() {
   return (
     <>
     <div className='max-h-screen overflow-y-hidden'>
       {/* menubar/headerbar */}
-      <HeaderBar />
+   
       {/* sidebar */}
+     
       <Sidebar/>
-      {/* rows */}
+      <Center />
+      
+ 
+  
       {/* player */}
       <Player />
     </div>
